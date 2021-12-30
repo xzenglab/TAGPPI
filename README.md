@@ -12,7 +12,11 @@ protein-protein interaction prediction.
 * sklearn
 
 # Datasets
-The datasets of yeast and multi_species are provided in data/yeast and data/multi_speices respectively.
+The datasets we used in the study can be downloaded through the following links.
+
+* [Yeast dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiG_oH3CopEyYC3vB?e=wtJULp)
+* [Multi-species dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiHA3aS0WGbwuSsHc?e=6AHmXl)
+* [Multi-class dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiHFKBet6wAV_GufP?e=A8Gup9)
 
 # Run 
 After prepared with suitable environment, you can execute the following command to execute the code with default parameters.
