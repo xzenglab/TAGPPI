@@ -18,6 +18,8 @@ The datasets we used in the study can be downloaded through the following links.
 * [Multi-species dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiHA3aS0WGbwuSsHc?e=6AHmXl)
 * [Multi-class dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiHFKBet6wAV_GufP?e=A8Gup9)
 
+The sequence embedding method is available at: [SeqVec](https://github.com/Rostlab/SeqVec)
+
 # Run 
 After prepared with suitable environment, you can execute the following command to execute the code with default parameters.
 ```shell
