@@ -14,9 +14,9 @@ protein-protein interaction prediction.
 # Datasets
 The datasets we used in the study can be downloaded through the following links.
 
-* [Yeast dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiG_oH3CopEyYC3vB?e=wtJULp)
+* [Yeast dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiG_oH3CopEyYC3vB?e=QvxV9V)
 * [Multi-species dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiHA3aS0WGbwuSsHc?e=6AHmXl)
-* [Multi-class dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiHFKBet6wAV_GufP?e=A8Gup9)
+* [Multi-class dataset](https://1drv.ms/u/s!AqVY1IPGnJLRiSH0RdF3tmkaKnE1?e=d0CWbD)
 
 The sequence embedding method is available at: [SeqVec](https://github.com/Rostlab/SeqVec)
 
