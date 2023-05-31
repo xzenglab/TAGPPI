@@ -41,10 +41,10 @@ def default_loader(cpath,pid):
     G = G.to(torch.device('cuda'))
     G.ndata['feat'] = g_embed
     
-    if nodenum > 1000:
-        textembed = embed_data[pid][:1000]
-    elif nodenum < 1000:
-        textembed = np.concatenate((embed_data[pid], np.zeros((1000 - nodenum, 1024))))
+    if nodenum > 1200:
+        textembed = embed_data[pid][:1200]
+    elif nodenum < 1200:
+        textembed = np.concatenate((embed_data[pid], np.zeros((1200 - nodenum, 1024))))
     
     textembed = torch.tensor(textembed).float().to(device)
     return G,textembed
@@ -103,7 +103,7 @@ def pad_sequences(vectorized_seqs, seq_lengths, contactMaps, contact_sizes, prop
 
 def pad_dmap(dmaplist):
    
-    pad_dmap_tensors = torch.zeros((len(dmaplist), 1000, 1024)).float()
+    pad_dmap_tensors = torch.zeros((len(dmaplist), 1200, 1024)).float()
     for idx, d in enumerate(dmaplist):
         d = d.float().cpu()
         pad_dmap_tensors[idx] = torch.FloatTensor(d)
